@@ -71,10 +71,10 @@ public partial class MainWindow : Window
     private void PlaceMines()
     {
         mineFields[0, 1].HasMine = true;
-        mineFields[1, 4].HasMine = true;
+        mineFields[4, 4].HasMine = true;
         mineFields[2, 7].HasMine = true;
-        mineFields[3, 3].HasMine = true;
-        mineFields[4, 8].HasMine = true;
+        mineFields[6, 3].HasMine = true;
+        mineFields[9, 8].HasMine = true;
     }
     private void ButtonClick(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
