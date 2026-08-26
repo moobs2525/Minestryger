@@ -1,0 +1,28 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        d:DesignWidth="800"
+        d:DesignHeight="600"
+        x:Class="Minestryger.MainWindow"
+        Title="Minestryger">
+
+    <Grid RowDefinitions="Auto,*" Margin="20">
+        
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center"
+                    Spacing="20" Margin="0,0,0,20">
+
+            <TextBlock Text="Minestryger" FontSize="24"/>
+
+            <TextBlock x:Name="txtTime" Text="Tid: 0"/>
+            <Button Content="Restart" Click="RestartClick" Width="100" Height="40"/>
+
+        </StackPanel>
+
+        <Grid x:Name="mineGrid" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top"> </Grid>
+
+    </Grid>
+    
+
+</Window>
