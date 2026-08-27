@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Minestryger")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a00c8956ee1ad471de33a7c5e4e818b76c90ad8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Minestryger")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Minestryger")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

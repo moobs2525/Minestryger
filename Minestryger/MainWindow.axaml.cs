@@ -74,7 +74,7 @@ public partial class MainWindow : Window
         mineFields[4, 4].HasMine = true;
         mineFields[2, 7].HasMine = true;
         mineFields[6, 3].HasMine = true;
-        mineFields[9, 8].HasMine = true;
+        mineFields[8, 8].HasMine = true;
     }
     private void ButtonClick(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
@@ -147,8 +147,7 @@ public partial class MainWindow : Window
             {
                 MineFieldElement mineField = mineFields[row, column];
 
-                // If we find a safe field that has not been revealed,
-                // the player has not won yet
+                
                 if (!mineField.HasMine && !mineField.IsRevealed)
                 {
                     return false;

@@ -89,3 +89,4 @@ C:\Users\micha\RiderProjects\Minestryger\Minestryger\obj\Debug\net10.0\refint\Mi
 C:\Users\micha\RiderProjects\Minestryger\Minestryger\obj\Debug\net10.0\Minestryger.pdb
 C:\Users\micha\RiderProjects\Minestryger\Minestryger\obj\Debug\net10.0\Minestryger.genruntimeconfig.cache
 C:\Users\micha\RiderProjects\Minestryger\Minestryger\obj\Debug\net10.0\ref\Minestryger.dll
+C:\Users\micha\RiderProjects\Minestryger\Minestryger\obj\Debug\net10.0\Minestryger.sourcelink.json
